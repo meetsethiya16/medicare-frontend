@@ -1,1 +1,1 @@
-The project is currently under progress, some of the functionalities will not work.
+The project is currently under progress, some of the functionalities may not work.
