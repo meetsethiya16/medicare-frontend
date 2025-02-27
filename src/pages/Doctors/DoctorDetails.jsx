@@ -3,6 +3,7 @@ import doctorImg from "../../assets/images/doctor-img02.png";
 import starIcon from "../../assets/images/Star.png";
 import DoctorAbout from "./DoctorAbout";
 import Feedback from "./Feedback";
+import SidePanel from "./SidePanel";
 
 const DoctorDetails = () => {
   const [tab, setTab] = useState("about");
@@ -65,7 +66,9 @@ const DoctorDetails = () => {
                 {tab === "feedback" ? <Feedback /> : ""}
               </div>
             </div>
-            <div className=""></div>
+            <div className="">
+              <SidePanel />
+            </div>
           </div>
         </div>
       </section>
