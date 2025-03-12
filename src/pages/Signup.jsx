@@ -1,5 +1,6 @@
 import signupImg from "../assets/images/signup.gif";
 import avatar from "../assets/images/doctor-img01.png";
+import { Link } from "react-router-dom";
 
 const Signup = () => {
   return (
@@ -101,6 +102,24 @@ const Signup = () => {
                     </label>
                   </div>
                 </div>
+                <div className="mt-7">
+                  <button
+                    type="submit"
+                    // className="w-full btn rounded-md text-[20px] leading-6"
+                    className="w-full bg-primaryColor text-white text-[18px] leading-[30px] rounded-lg px-4 py-3"
+                  >
+                    Signup
+                  </button>
+                </div>
+                <p className="mt-5 text-textColor text-center">
+                  Already have an account?{" "}
+                  <Link
+                    to="/login"
+                    className="text-primaryColor font-medium ml-1"
+                  >
+                    Login
+                  </Link>
+                </p>
               </form>
             </div>
           </div>
